@@ -1,0 +1,75 @@
+.ui-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
+  width: 1162px\9;
+  margin-top: 14px;
+  border: 2px solid #e2e1e1;
+  padding: 0px 21px 84px 21px;
+  margin-bottom: 65px;
+}
+.ui-wrapper ul {
+  padding: 17px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.ui-wrapper ul li {
+  height: 38px;
+  line-height: 38px;
+}
+.ui-wrapper ul li a {
+  width: 500px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  padding-left: 18px;
+  font-size: 16px;
+  color: #333333;
+  background: url("../image/dot333.jpg") no-repeat 7px center;
+}
+.ui-wrapper ul li a:hover {
+  color: #3076bb;
+}
+.ui-wrapper ul li span {
+  float: right;
+  font-size: 14px;
+  color: #999999;
+  margin-right: 12px;
+}
+.ui-wrapper .ui-pagination {
+  height: 124px;
+  line-height: 124px;
+  text-align: center;
+  font-size: 12px;
+}
+.ui-wrapper .ui-pagination a {
+  color: #999999;
+  border: 1px solid #ecebeb;
+  font-size: 12px;
+  margin-right: 4px;
+  padding: 8px 16px;
+}
+.ui-wrapper .ui-pagination a + span {
+  margin-left: 8px;
+  color: #333333;
+  font-size: 12px;
+  margin-right: 58px;
+}
+.ui-wrapper .ui-pagination a.ui-go {
+  background: #0c6db6;
+  color: #fff;
+  border-radius: 50%;
+  padding: 8px;
+  margin-left: 12px;
+}
+.ui-wrapper .ui-pagination input {
+  width: 28px;
+  height: 28px;
+  width: 30px\9;
+  height: 30px\9;
+  outline: none;
+  vertical-align: baseline;
+  text-align: center;
+  border: 1px solid #5a94c0;
+  margin: 0 3px;
+}

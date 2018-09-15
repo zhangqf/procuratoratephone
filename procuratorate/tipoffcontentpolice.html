@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>tipoffContentpolice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/tipoffcontentpolice.css">
+</head>
+
+<body>
+    <div class="ui-header">
+        <div class="ui-log">
+            <a href=""><img src="./image/logo.png" alt=""></a>
+            <a href="">天水市人民检察院举报中心</a>
+        </div>
+    </div>
+    <div class="ui-container">
+        <span class="ui-tip">提示：*</span>为必填项
+        <h2>检察干警违法违纪举报专区</h2>
+        <h4>举报人基本情况</h4>
+        <div class="ui-table-report">
+            <h6>
+                <span>举报人</span>
+                <div class="ui-addorremove">
+                    <a href=""> + 添加举报人</a><a href=""> - 删除此举报人</a>
+                </div>
+            </h6>
+            <p style="margin-top:20px;">
+                <label for="usernamed" style="width: 80px;">姓名：</label><input type="text" id="usernamed">
+                <span class="ui-tip" style="margin-left: 40px;">*</span> <label for="" style="margin-right: 16px;">是否署名：</label>
+                <input type="radio" id="y" name="choose" checked><label for="y">是</label>
+                <input type="radio" id="n" name="choose"><label for="n">否</label>
+                <label for="" class="margin" style="margin-left: 170px">身份证号：</label><input type="text" style="width: 174px;width: 176px\9;">
+            </p>
+            <p>
+                <label for="phone" style="width: 80px;">联系电话：</label><input type="text" id="phone">
+                <label for="phone1" class="margin" style="width: 80px;margin-left: 40px;">联系电话：</label>
+                <select name="" id="" style="width: 248px;width: 250px\9">
+                    <option value="">选择地区</option>
+                    <option value="">选择地区1</option>
+                    <option value="">选择地区2</option>
+                </select>
+                <label for="addr" class="margin">单位、住址：</label><input type="text" id="addr">
+            </p>
+            <!-- <table class="table-report">
+                <tr>
+                    <td>
+                        <label for="username">姓名：</label><input type="text" id="username">
+                    </td>
+                    <td style="width: 330px;padding-left: 20px">
+                        <span class="ui-tip">*</span>是否署名：
+                        <input type="radio" name="choose" id="y"><label for="y" class="y">是</label>
+                        <input type="radio" name="choose" id="n"><label for="n" class="n">否</label>
+                    </td>
+                    <td>
+                        <label for="">身份证号：</label><input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">联系电话</label><input type="text" name="" id="phone">
+                    </td>
+                    <td style="width: 330px;padding-left: 20px">
+                        <label for="">联系电话</label>
+                        <select name="" id="">
+                            <option value="">请选择地区</option>
+                            <option value="">1</option>
+                            <option value="">3</option>
+                            <option value="">2</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="addr">单位、住址</label><input type="text" name="" id="addr">
+                    </td>
+                </tr>
+            </table> -->
+        </div>
+        <h4>被举报人基本情况</h4>
+        <div class="ui-table-bereported">
+            <h6>
+                <span>被举报人</span>
+                <div class="ui-addorremove">
+                    <a href=""> + 添加被举报人</a><a href=""> - 删除此被举报人</a>
+                </div>
+            </h6>
+            <p style="margin-top:20px;">
+                <span class="ui-tip">*</span><label for="usernamed" style="width: 80px;">姓名：</label><input type="text" id="usernamed">
+                <label for="" class="margin">民族：</label>
+                <select name="" id="">
+                        <option value="">未知</option>
+                        <option value="">男</option>
+                        <option value="">女</option>
+                    </select>
+                <label for="" class="margin">民族：</label>
+                <select name="" id="">
+                    <option value="">请选择</option>
+                    <option value="">汉</option>
+                    <option value="">满</option>
+                </select>
+                <label for="" class="margin">政治面貌：</label>
+                <select name="" id="" style="width: 140px;width: 142px\9">
+                    <option value="">请选择</option>
+                    <option value="">党员</option>
+                    <option value="">团员</option>
+                    <option value="">群众</option>
+                </select>
+            </p>
+            <p>
+                <span class="ui-tip">*</span>
+                <label for="companyed" style="width: 80px;">单位：</label><input type="text" id="companyed">
+                <label for="home" class="margin">住址：</label><input type="text" id="home">
+            </p>
+            <p>
+                <span class="ui-tip">*</span>
+                <label for="happened" style="width: 80px;">案发地区：</label>
+                <select name="" id="" style="width: 234px;width: 236px\9;">
+                    <option value="">请选择地区</option>
+                    <option value="">地区1</option>
+                    <option value="">地区2</option>
+                    <option value="">地区3</option>
+                </select>
+                <label for="stay" class=" margin ">住址：</label><input type="text" id="stay">
+                <label for="stay1" class=" margin ">住址：</label><input type="text" id="stay1">
+            </p>
+            <p>
+                <span class="ui-tip">*</span>
+                <label for="happened" style="width: 80px;">身份：</label>
+                <select name="" id="" style="width: 234px;width: 236px\9;">
+                    <option value="">请选择身份</option>
+                    <option value="">身份1</option>
+                    <option value="">身份2</option>
+                    <option value="">身份3</option>
+                </select>
+                <label for="stay" class=" marginright ">特殊身份：</label>
+                <select name="" id="" style="width: 196px;width: 198px\9;">
+                    <option value="">请选择身份</option>
+                    <option value="">身份1</option>
+                    <option value="">身份2</option>
+                    <option value="">身份3</option>
+                </select>
+                <label for="stay1" class=" margin ">涉嫌领域：</label>
+                <select name="" id="" style="width: 204px;width: 206px\9;">
+                    <option value="">请选择</option>
+                    <option value="">领域1</option>
+                    <option value="">领域2</option>
+                    <option value="">领域3</option>
+                </select>
+            </p>
+            <p>
+                <span class="ui-tip">*</span>
+                <label for="happened">主要涉嫌性质：</label>
+                <select name="" id="" style="width: 216px;width: 218px\9;">
+                    <option value="">请选择性质</option>
+                    <option value="">性质1</option>
+                    <option value="">性质2</option>
+                    <option value="">性质3</option>
+                </select>
+                <label for="stay" class=" marginright ">其他涉嫌性质：</label>
+                <select name="" id="" style="width: 168px;width: 170px\9;">
+                    <option value="">请选择性质</option>
+                    <option value="">性质1</option>
+                    <option value="">性质2</option>
+                    <option value="">性质3</option>
+                </select>
+                <label for="money" class=" margin ">涉嫌金额：</label>
+                <input type="text" name="" id="money" style="width: 202px;width: 204px\9;">
+            </p>
+        </div>
+        <div class="ui-textarea">
+            <span> <span class="ui-tip">*</span>举报内容：</span>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="ui-identifyingcode">
+            <label for="indetify">验证码：</label> <input type="text" id="indetify">
+            <span class="ui-identify">7752</span>
+            <span class="ui-refresh"><img src="./image/refresh.png" alt=""></span>
+            <a href="">换一张</a>
+        </div>
+        <div class="ui-btn">
+            <button type="submit">提交</button>
+            <button>返回</button>
+        </div>
+    </div>
+</body>
+
+</html>

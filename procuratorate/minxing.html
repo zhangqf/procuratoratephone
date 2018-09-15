@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/minxing.css"/>
+		<title>民行申诉</title>
+	</head>
+	<body>
+		<div class="ui-header">
+			<div class="loginbar">
+				<span class="quit"><a href="PetitionHall.html">退出</a></span>
+				<span class="users"><a href="#">XXX</a></span>
+				<a href="#"><img src="image/uesrs.png"></a>
+			</div>
+			<div class="ui-header-content">
+				<img src="image/emblem.png">
+				<div class="title1">天水市人民检察院网上信访大厅</div>
+				<div class="title2">TIAN SHUI SHI REN MING JIAN CHA YUAN WANG SHANG XIN FANG DA TING</div>
+				<div class="search">
+					<input type="search" value="请选择区、县" name="search1" readonly="readonly">
+					<div class="ui-chooseaddr" id="chooseaddr">
+						<span value="">秦州区</span>
+						<span value="">麦积区</span>
+						<span value="">清水县</span>
+						<span value="">秦安县</span>
+						<span value="">甘谷县</span>
+						<span value="">武山县</span>
+						<span value="">张家川回族自治县</span>
+					</div>
+				</div>
+			</div>
+			<div class="submenu"><a href="#"><b>首页</b></a>>民行申诉</div>
+		</div>
+		<div class="ui-content">
+			<span class="information-title">申请人信息</span>
+			<div class="petitioners-information1">
+				<p>
+					<span class="ui-left-name">姓名或单位名称<span class="red">*</span></span><input type="text" class="left" name="" value="" required="required">
+					<span class="ui-right-name">与原案关系<span class="red">*</span></span><select class="right" name="" id="select"><option>犯罪嫌疑人</option></select>
+				</p>
+				<p>
+					<span class="ui-left-name">性别</span> <span class="sex"><input type="radio" name="sex1" value="男" checked="checked"> 男&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex1" value="女"> 女</span>
+					<span class="ui-right-name">证件类型</span><select class="right" name="" id="select"><option>居民身份证</option></select></span>
+				</p>
+				<p>
+					<span class="ui-left-name">证件号码<span class="red">*</span></span><input type="text" class="left" name="" value="" required="required">
+					<span class="ui-right-name">移动电话<span class="red">*</span></span><input type="text" class="right" name="" value="" required="required">
+				</p>
+				<p>
+					<span class="ui-left-name">国籍</span><select class="left" name="" id="select"><option>中国</option></select>
+					<span class="ui-right-name">邮箱地址</span><input type="text" class="right" name="" value="">
+				</p>
+				<p>
+					<span class="ui-left-name">工作单位</span><input type="text" class="left" name="" value="">
+					<span class="ui-right-name">居所地</span><input type="text" class="right" name="" value="">
+				</p>
+				<p>
+					<span class="ui-left-name">法定代表人姓名</span><input type="text" class="left" name="" value="">
+					<span class="ui-right-name">法定代表人职务</span><input type="text" class="right" name="" value="">
+				</p>
+				<p>
+					<span class="ui-left-name">代理人姓名</span><input type="text" class="left" name="" value="">
+					<span class="ui-right-name">代理人证件类型</span><select class="right" name="" id="select"><option>居民身份证</option></select>
+				</p>
+				<p>
+					<span class="ui-left-name">代理人证件号码</span><input type="text" class="left" name="" value="">
+					<span class="ui-right-name">代理人工作单位</span><input type="text" class="right" name="" value="">
+				</p>
+				<p>
+					<span class="ui-left-name">送达地址</span><input type="text"class="left"  name="" value="">
+				</p>
+				
+			</div>
+			<span class="information-title">被申请人信息</span>
+			<div class="petitioners-information2">
+				<p>
+					<span class="ui-left-name">姓名或单位名称<span class="red">*</span></span><input type="text" class="left" name="" value="" required="required">
+					<span class="ui-right-name">与原案关系</span><select class="right" name="" id="select"><option></option></select>
+				</p>
+				<p>
+					<span class="ui-left-name">性别</span> <span class="sex"><input type="radio" name="sex" value="男" checked="checked"> 男&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="sex" value="女"> 女&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="性别不详"> 性别不详</span>
+					<span class="ui-right-name">国籍</span><select class="right" name="" id="select"><option>中国</option></select></span>
+				</p>
+				<p>
+					<span class="ui-left-name">工作单位所在地<span class="red">*</span></span><input type="text" class="left" name="" value="" required="required">
+					<span class="ui-right-name">工作单位全称<span class="red">*</span></span><input type="text" class="right" name="" value="" required="required">
+				</p>
+				<p>
+					<span class="ui-left-name">送达地址</span><input type="text" class="left" name="" value="">
+				</p>
+			</div>
+			<span class="information-title">申诉事项</span>
+			<div class="petitioners-information3">
+				<p>
+					<span class="item-lname">选择接收的检察院</span><span class="red2">*</span><select name="" class="ui-left2" id="select"><option></option></select>
+					<span class="item-rname">案发地<span class="red1">*</span></span><select name="" class="right2" id="select"><option></option></select>
+				</p>
+				<p>
+					<span class="item-lname">一审法院</span><input type="text" name="" value="" class="ui-left2">
+					<span class="item-rname">一审裁判、调解作出日期</span><input type="text" name="" value="" class="ui-right2">
+				</p>
+				<p>
+					<span class="item-lname">一审裁判人员</span><input type="text" name="" value="" class="ui-left2">
+					<span class="item-rname">一审裁判、调解书文号</span><input type="text" name="" value="" class="ui-right2">
+				</p>
+				<p>
+					<span class="item-lname">二审法院</span><input type="text" name="" value="" class="ui-left2">
+					<span class="item-rname">二审裁判、调解作出日期</span><input type="text" name="" value="" class="ui-right2">
+				</p>
+				<p>
+					<span class="item-lname">二审裁判人员</span><input type="text" name="" value="" class="ui-left2">
+					<span class="item-rname">二审裁判、调解书文号</span><input type="text" name="" value="" class="ui-right2">
+				</p>
+				<p>
+					<span class="item-lname">再审法院</span><input type="text" name="" value="" class="ui-left2">
+					<span class="item-rname">再审裁判、调解作出日期</span><input type="text" name="" value="" class="ui-right2">
+				</p>
+				<p>
+					<span class="item-lname">再审裁判人员</span><input type="text" name="" value="" class="ui-left2">
+					<span class="item-rname">再审裁判、调解书文号</span><input type="text" name="" value="" class="ui-right2">
+				</p>
+				<p>
+					<span class="item-lname">终审法院</span><input type="text" name="" value="" class="ui-left2">
+					<span class="item-rname">终审裁判、调解作出日期</span><input type="text" name="" value="" class="ui-right2">
+				</p>
+				<p>
+					<span class="item-lname">终审裁判人员</span><input type="text" name="" value="" class="ui-left2">
+					<span class="item-rname">终审裁判、调解书文号</span><input type="text" name="" value="" class="ui-right2">
+				</p>
+				<p>
+					<span class="item-lname">法院受理再审日期</span><input type="text" name="" value="" class="ui-left2">
+					<span class="item-rname">法院受理再审申请通知文号</span><input type="text" name="" value="" class="ui-right2">
+				</p>
+				<p>
+					<span class="item-lname" style="float:left">案情摘要</span>
+					<span class="red2" style="float:left">*</span><textarea required="required"></textarea>
+					<span class="hint">*请将案情摘要字数控制在1200字以内</span>
+				</p>
+			</div>
+		    <div class="ui-upload">
+				<p>
+					<span class="upload">上传民行监督申请书</span><input type="text" name="" value="" id="fileName1" readonly="readonly"><input  type="file"  name="" value="" id="input1" onchange="handleFile1()"><img src="image/upload.png" id="upload1" onclick="click1()">
+				</p>
+				<p>
+					<span class="upload">上传一审、二审、再审法律文书</span><input type="text" name="" value=""  id="fileName2" readonly="readonly"><input  type="file"  name="upload1" value="" id="input2" onchange="handleFile2()"><img src="image/upload.png" id="upload2" onclick="click2()">
+				</p>
+				<p>
+					<span class="upload">上传身份证扫描件</span><input type="text" name="" value="" id="fileName3" readonly="readonly"><input  type="file"  name="upload1" value="" id="input3" onchange="handleFile3()"><img src="image/upload.png" id="upload3" onclick="click3()">
+				</p>
+				<p>
+					<span class="upload">上传其他相关材料</span><input type="text" name="" value="" id="fileName4" readonly="readonly"><input  type="file"  name="upload1" value="" id="input4" onchange="handleFile4()"><img src="image/upload.png" id="upload4" onclick="click4()">
+				</p>
+			</div>
+			<div class="ui-warn">
+				民事监督类信访事项相关材料提交提醒：
+     			<p>（1）、抗诉申请书；</p>
+     			<p>（2）、一审、二审、再审法律文书扫描件；</p>
+     			<p>（3）、身份证扫描件（有代理人的需提供代理人身份证扫描件和授权委托书，律师需提供律师证扫描件、法律工作者需提供社区出具的推荐证明材料）；</p>
+     			<p>（4）、相关其他材料。</p>
+     			<a class="attachment" href="#"><b>附件:</b>  民事行政申诉案件送达地址确认书.docx</a>
+			</div>
+			<div class="ui-submit">
+				<input type="submit" value="提交" class="submit"><input type="reset" value="取消" class="reset">
+			</div>
+		</div>
+		<div class="ui-footer">
+			<div class="ui-footer-content">
+				<div class="ui-footer-font">
+					<pre>版权所有：天水市人民检察院&copy;CopyRight2018-2022    陇ICP备09003537号</pre>
+					<pre>甘肃天水秦州区春风路政务中心    举报电话1309    联系电话：0938-8629806</pre>
+				</div>
+				<img src="image/footer.png"> 
+			</div>
+		</div>
+		<script type="text/javascript">
+			var input1 = document.getElementById("input1");
+            var fileName1 = document.getElementById("fileName1");
+            var upload1=document.getElementById("upload1");
+            function click1(){
+            	input1.click();
+            }
+			function handleFile1(){
+               fileName1.value = input1.value;
+            }
+			var input2 = document.getElementById("input2");
+            var fileName2 = document.getElementById("fileName2");
+            var upload2=document.getElementById("upload2");
+            function click2(){
+            	input2.click();
+            }
+			function handleFile2(){
+               fileName2.value = input2.value;
+            }
+			var input3 = document.getElementById("input3");
+            var fileName3 = document.getElementById("fileName3");
+            var upload3=document.getElementById("upload3");
+            function click3(){
+            	input3.click();
+            }
+			function handleFile3(){
+               fileName3.value = input3.value;
+            }
+			var input4 = document.getElementById("input4");
+            var fileName4 = document.getElementById("fileName4");
+            var upload4=document.getElementById("upload4");
+            function click4(){
+            	input4.click();
+            }
+			function handleFile4(){
+               fileName4.value = input4.value;
+         }
+		</script>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/gov_province_city_area_id.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/counties.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

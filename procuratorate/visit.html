@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>预约接访</title>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/visit.css"/>
+	</head>
+	<body>
+		<div class="ui-header">
+			<div class="loginbar">
+				<span class="quit"><a href="#">退出</a></span>
+				<span class="users"><a href="#">XXX</a></span>
+				<a href="#"><img src="image/uesrs.png"></a>
+			</div>
+			<div class="ui-header-content">
+				<img src="image/logo.png">
+				<div class="title1">天水市人民检察院网上信访大厅</div>
+				<div class="title2">TIAN SHUI SHI REN MING JIAN CHA YUAN WANG SHANG XIN FANG DA TING</div>
+				<div class="search">
+					<input type="search" placeholder="请选择县或者区" name="search1" readonly="readonly">
+					<div class="ui-chooseaddr" id="chooseaddr">
+						<span value="">秦州区</span>
+						<span value="">麦积区</span>
+						<span value="">清水县</span>
+						<span value="">秦安县</span>
+						<span value="">甘谷县</span>
+						<span value="">武山县</span>
+						<span value="">张家川回族自治县</span>
+					</div>
+				</div>
+			</div>
+			<div class="submenu"><a href="#"><b>首页</b></a>>预约接访</div>
+		</div>
+		<div class="ui-section">
+			<div class="ui-section-top">
+				<span>预约类型：预约窗口接访</span>
+			</div>
+			<div class="ui-section-content">
+				<div class="ui-list1">
+					<span class="ui-code">受理单位</span>
+					<span class="must">*</span>
+					<select name="unit" value="" class="select" ><option>姓名</option></select>
+				</div>
+				<div class="ui-list2">
+					<span class="ui-code">证件类型</span>
+					<select name="id-type" value="" class="select" >
+						<option>身份证</option>
+					</select>
+				</div>
+				<div class="ui-list1">
+					<span class="ui-code">证件号码</span>
+					<span class="must">*</span>
+					<input type="text" placeholder="6532145687954612" name="id-number" value="" class="text">
+				</div>
+				<div class="ui-list2">
+					<span class="ui-code">性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别</span>
+					<select name="sex" value="" class="select" >
+						<option selected>女</option>
+						<option>男</option>
+					</select>
+				</div>
+				<div class="ui-list1">
+					<span class="ui-code">民&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;族</span>
+					<select name="nation" value="" class="select" >
+						<option>汉</option>
+					</select>
+				</div>
+				<div class="ui-list2">
+					<span class="ui-code">国&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;籍</span>
+					<select name="country" value="" class="select" >
+						<option>中国</option>
+					</select>
+				</div>
+				<div class="ui-list1">
+					<span class="ui-code">工作单位</span>
+					<span class="must">*</span>
+					<input type="text" placeholder="某某某单位" name="workadd" value="" class="text">
+				</div>
+				<div class="ui-list2">
+					<span class="ui-code">居&nbsp;住&nbsp;地</span>
+					<input type="text" placeholder="甘肃天水" name="address" value="" class="text">
+				</div>
+				<div class="ui-list1">
+					<span class="ui-code">联系电话</span>
+					<span class="must">*</span>
+					<input type="text" placeholder="15352042369" name="tel" value="" class="text">
+				</div>
+				<div class="ui-list2">
+					<span class="ui-code">邮箱地址</span>
+					<input type="text" placeholder="15468756@qq.com" name="email" value="" class="text">
+				</div>
+				<div class="ui-list1">
+					<span class="ui-code">案件类型</span>
+					<span class="must">*</span>
+					<input type="text" placeholder="举报类" name="case" value="" class="text">
+				</div>
+				<div class="ui-list3">
+					<span class="ui-code1">内容摘要<span class="must">*</span></span>
+					
+					<textarea class="synopsis" placeholder="请输入信件内容（必填、5-400个字符）" name="synopsis" value=""></textarea>
+				</div>
+				<div class="ui-list1">
+					<span class="ui-code">预约接待时间</span>
+					<input type="text" name="time" class="pre">
+				</div>
+				<div class="ui-list2">
+					<span class="ui-code">预约接待单位</span>
+					<input type="text" name="jddw" class="pre">
+				</div>
+			
+				<div class="upload-data">
+					<span class="updata-name">上&nbsp;&nbsp;传&nbsp;&nbsp;附&nbsp;&nbsp;件</span>
+					<input type="text"  class="upload-text" name="upload-text" value="">
+					<label for="file"><img src="image/upload.png" id="upload"></label>
+					<div class="file">
+						<input  type="file" class="upload1" name="upload1" value="" id="input">
+				    </div>
+				</div>
+				<input type="submit" class="submit1" value="提交" name="submit1">
+				<input type="button" class="cancel1" value="取消" name="cancel1">
+			</div>
+		</div>
+			<div class="ui-footer">
+			<div class="ui-footer-content">
+				<div class="ui-footer-font">
+					<pre>版权所有：天水市人民检察院&copy;CopyRight2018-2022    陇ICP备09003537号</pre>
+					<pre>甘肃天水秦州区春风路政务中心    举报电话1309    联系电话：0938-8629806</pre>
+				</div>
+				<img src="image/footer.png"> 
+			</div>
+		</div>
+
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/counties.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$("#upload").on("click",function(){ 
+				$("#input").click()
+			})
+		</script>
+	</body>
+</html>

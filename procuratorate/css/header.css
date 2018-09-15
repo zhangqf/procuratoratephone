@@ -1,0 +1,244 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:0px;
+}
+body{
+	width:100%;
+	padding:0;
+	border:0;
+	margin:0;
+	background-image:url(../image/background.jpg);
+	background-repeat: no-repeat;
+}
+input,select,textarea{
+	padding:0;
+	outline:none;
+	text-indent: 16px;
+}
+html,body{
+	height:100%;
+}
+.ui-header{
+	width:100%;
+	height:246px;
+}
+.loginbar{
+	width:1204px;
+	height:35px;
+	margin:13px auto 0;
+	font-size:16px;
+	font-family:"Microsoft YaHei UI";
+	color:#ffffff;
+}
+.loginbar .quit{
+	margin-right:24px;
+	float:right;
+}
+.quit a,.users a{
+	color:#ffffff;
+}
+.loginbar .users{
+	margin:0 20px 0 12px;
+	float:right;
+}
+.loginbar img{
+	float:right;
+}
+.ui-header-content{
+	width:1204px;
+	height:140px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+   -webkit-border-radius:10px;
+	behavior: url("/PIE-1.0.0/PIE.htc");
+	margin:0 auto;
+	background: rgba(255,255,255,.83);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#c8ffffff,endColorstr=#c8ffffff);
+}
+.ui-header-content img{
+	margin-top:27px;
+	margin-left:70px;
+	float:left;
+}
+.ui-header-content .title1{
+	margin-top:26px;
+	margin-left:18px;
+	font-size:45px;
+	font-family:"微软雅黑";
+	color:#0066ba;
+	font-weight:bold;
+	float:left;
+}
+.ui-header-content .title2{
+	margin-left:18px;
+	font-size:16px;
+	font-family:"微软雅黑";
+	color:#0066ba;
+	font-weight:bold;
+	float:left;
+}
+.ui-header-content input{
+	width:278px;
+	height:44px;
+	border:none;
+	border-radius: 10px;
+	/*margin-top:-44px;
+	margin-right:60px;*/
+	background-image:url(../image/search.png);
+	font-size:16px;
+	font-family:"微软雅黑";
+	line-height:44px;
+	color:#FFFFFF;
+	text-indent: 46px;
+	/*float:right;*/
+	cursor: pointer;
+}
+.ui-header-content input::placeholder {
+	color:#ffffff; 
+} 
+.ui-header-content .search img{
+	margin:14px 10px 0 24px;
+}
+.submenu{
+	width:1178px;
+	height:70px;
+	margin:0 auto;
+	font-size:18px;
+	font-family:"Microsoft YaHei UI";
+	color:#0066ba;
+	line-height:70px;
+}
+.submenu a{
+	color:#0066ba;
+}
+
+
+/*chooseaddr*/
+.search{
+	width: 278px;
+	height: 44px;
+	position: relative;
+	float: right;
+	margin-top: -44px;
+    margin-right: 60px;
+    z-index: 1000;
+    cursor: pointer;
+}
+.ui-chooseaddr{
+	position: absolute;
+	width: 278px;
+	border:1px solid #0066ba;
+	background:#fbfbfb ;
+	text-indent: 16px;
+	/*margin-top: 44px;*/
+	display: none;
+}
+
+.ui-chooseaddr>span{
+	line-height: 24px;
+	display: block;
+	cursor: pointer;
+}
+.ui-chooseaddr>span:hover{
+	background: #0066ba;
+	color: #fff;
+}
+/*footer*/
+input.cancel1{
+	width:136px;
+	height:36px;
+	border:1px solid #dadada;
+	border-radius:4px;
+	margin-top:102px;
+	background-color:#dadada;
+	font-size:18px;
+	font-family:"微软雅黑";
+	color:#4e4e4e;
+	float:left;
+	cursor: pointer;
+	text-indent: 0;
+}
+input.submit1{
+	width:136px;
+	height:36px;
+	border-radius:4px;
+	margin:102px 12px 0 450px;
+	background-color:#dadada;
+	font-size:18px;
+	font-family:"微软雅黑";
+	color:#4e4e4e;
+	float:left;
+	background: #3874b1;
+	color:#ffffff;
+	cursor: pointer;
+	text-indent: 0;
+	border:none;
+}
+.ui-submit{
+	width:288px;
+	height:38px;
+	margin:90px auto 68px;
+}
+.submit{
+	width: 138px;
+	height:38px;
+	border:0px;
+	border-radius: 4px;
+	background:#dadada;
+	margin-right: 12px;
+	color:#4e4e4e;
+	font-size: 18px;
+	cursor: pointer;
+	background: #3874b1;
+	color:#ffffff;
+	text-indent: 0;
+}
+.reset{
+	width: 138px;
+	height:38px;
+	border:0px;
+	border-radius: 4px;
+	background:#dadada;
+	color:#4e4e4e;
+	font-size: 18px;
+	cursor: pointer;
+	text-indent: 0;
+}
+#select{
+	height: 32px;
+}
+input,select,textarea{
+	outline: none;
+	background:#f9f9f9;
+	font-size: 16px;
+	color:#333333;
+	line-height: 30px;
+}
+.ui-footer{
+	border-top: 6px solid #0066ba;
+	background: #ededed;
+	line-height: 36px;
+	font-size: 14px;
+	color:#686868;
+}
+.ui-footer-content{
+	width:1210px;
+	height: 128px;
+	margin-top: 2px;
+	margin:0 auto;
+}
+.ui-footer-font{
+	float:left;
+	width:888px;
+}
+.ui-footer-font>:first-child{
+	margin-top:40px;
+}

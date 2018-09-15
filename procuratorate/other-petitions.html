@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link type="text/css" href="css/other-petitions.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="ui-header">
+			<div class="loginbar">
+				<span class="quit"><a href="PetitionHall.html">退出</a></span>
+				<span class="users"><a href="#">XXX</a></span>
+				<a href="#"><img src="image/uesrs.png"></a>
+			</div>
+			<div class="ui-header-content">
+				<img src="image/emblem.png">
+				<div class="title1">天水市人民检察院网上信访大厅</div>
+				<div class="title2">TIAN SHUI SHI REN MING JIAN CHA YUAN WANG SHANG XIN FANG DA TING</div>
+				<div class="search">
+					<input type="search" placeholder="请选择县或者区" name="search1" readonly="readonly">
+					<div class="ui-chooseaddr" id="chooseaddr">
+						<span value="">秦州区</span>
+						<span value="">麦积区</span>
+						<span value="">清水县</span>
+						<span value="">秦安县</span>
+						<span value="">甘谷县</span>
+						<span value="">武山县</span>
+						<span value="">张家川回族自治县</span>
+					</div>
+				</div>
+			</div>
+			<div class="submenu"><a href="#"><b>首页</b></a>>其他信访</div>
+		</div>
+		<div class="ui-section">
+			<div class="tips">其他类信访事项相关材料提交提醒：详细写明查询、咨询或想要了解的相关事项</div>
+			<span class="information-title">信访人信息</span>
+			<div class="petitioners-information1">
+				<div class="list1">
+					<input type="text" placeholder="姓名" name="name1" class="name1">
+					<span class="must">*</span>
+					<span class="list1-name">姓名或单位名称</span>
+				</div>
+				<div class="list4">
+					<div class="list2-name">性别</div>
+					<div class="list2-radio">
+						<span><input id="men" name="sex1"  class="sex1" type="radio" checked="checked" value="男">男</span>
+						<input id="women" type="radio" name="sex1" class="sex1" value="女">女
+					</div>
+				</div>
+				<div class="list1">
+					<span class="list1-name">证件类型</span>
+					<select name="id-code1" class="id-code1"><option>居民身份证</option></select>
+				</div>
+				<div class="list2">
+					<input type="text" placeholder="620502199812041558" name="code-number1" class="code-number1">
+					<span class="must">*</span>
+					<span class="list1-name">证件号码</span>
+				</div>
+				<div class="list1">
+					<span class="list2-name">民族</span>
+					<select name="nation1" class="nation1"><option>汉</option></select>
+				</div>
+				<div class="list2">
+					<span class="list2-name">国籍</span>
+					<select name="country1" class="country1"><option>中国</option></select>
+				</div>
+				<div class="list1">
+					<input type="text" placeholder="某某某单位" name="company1" class="company1">
+					<span class="must">*</span>
+					<span class="list1-name">工作单位</span>
+				</div>
+				<div class="list2">
+					<input type="text" placeholder="甘肃天水" name="address1" class="address1">
+					<span class="must">*</span>
+					<span class="list3-name">居所地</span>
+				</div>
+				<div class="list1">
+					<input type="text" placeholder="15379865253" name="phone-number1" class="phone-number1">
+					<span class="must">*</span>
+					<span class="list1-name">移动电话</span>
+				</div>
+				<div class="list2">
+					<input type="text" placeholder="156487562@qq.com" name="email1" class="email1">
+					<span class="list1-name">邮箱地址</span>
+				</div>
+			</div>
+			<span class="information-title">被信访人信息</span>
+			<div class="petitioners-information2">
+				<div class="list1">
+					<input type="text" placeholder="姓名" name="name2" class="name2">
+					<span class="must">*</span>
+					<span class="list1-name">姓名或单位名称</span>
+				</div>
+				<div class="list4">
+					<div class="list2-name">性别</div>
+					<div class="list2-radio">
+						<span><input id="men" name="sex2"  class="sex2" type="radio" checked="checked" value="男">男</span>
+						<span><input id="women" type="radio" name="sex2" class="sex2" value="女">女</span>
+						<input id="others" type="radio" name="sex2" class="sex2" value="性别不详">性别不详
+					</div>
+				</div>
+				<div class="list1">
+					<span class="list2-name">国籍</span>
+					<select class="country2" name="country2"><option>中国</option></select>
+				</div>
+				<div class="list2">
+					<input type="text" placeholder="" class="company2" name="company2">
+					<span class="list1-name">工作单位全称</span>
+				</div>
+				<div class="list1">
+					<input type="text" placeholder="汉" class="address2" name="address2">
+					<span class="list3-name">所在地</span>
+				</div>
+			</div>
+			<span class="information-title">相关事项</span>
+			<div class="petitioners-information3">
+				<div class="select">
+					<input type="text" placeholder="姓名" class="procuratorate1" name="procuratorate1">
+					<span class="must">*</span>
+					<span class="select-name">请选择接收的检察院</span>
+				</div>
+				<div class="place">
+					<input type="text" placeholder="姓名" class="venue1" name="venue1">
+					<span class="must">*</span>
+					<span class="place-name">案发地</span>
+				</div>
+				<div class="information3-content">
+					<textarea class="letters-content1" name="letters-content1"></textarea>
+					<span class="must">*</span>
+					<span class="select-name">信访内容</span>
+					<div class="msg">*请将信访内容字数控制在1200字以内</div>
+				</div>
+				<div class="upload-data">
+					<div class="file"><input  type="file" class="upload1" name="upload1" value="" id="input"></div>
+					<label for="file"><img src="image/upload.png" id="upload"></label>
+					<input type="text"  class="upload-text" name="upload-text" value="" readonly="readonly">
+					<span class="updata-name">上传信访资料</span>
+				</div>
+				<input type="submit" class="submit1" value="提交" name="submit1">
+				<input type="button" class="cancel1" value="取消" name="cancel1">
+			</div>
+		</div>
+		<div class="ui-footer">
+			<div class="ui-footer-content">
+				<div class="ui-footer-font">
+					<pre>版权所有：天水市人民检察院&copy;CopyRight2018-2022    陇ICP备09003537号</pre>
+					<pre>甘肃天水秦州区春风路政务中心    举报电话1309    联系电话：0938-8629806</pre>
+				</div>
+				<img src="image/footer.png"> 
+			</div>
+		</div>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/counties.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$("#upload").on("click",function(){
+				$("#input").click()
+			})
+		</script>
+	</body>
+</html>

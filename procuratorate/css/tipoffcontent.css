@@ -1,0 +1,312 @@
+.ui-header {
+  width: 100%;
+  height: 242px;
+  background: #0066ba;
+  line-height: 242px;
+}
+.ui-header .ui-log {
+  width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+}
+input,select,textarea{
+  padding:0;
+  outline:none;
+}
+.ui-header .ui-log a {
+  line-height: 88px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+}
+.ui-header .ui-log a img {
+  vertical-align: middle;
+}
+.ui-header .ui-log a + a {
+  margin-left: 36px;
+}
+.ui-container {
+  width: 964px;
+  padding-left: 42px;
+  padding-right: 42px;
+  margin-bottom: 190px;
+  padding-bottom: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+  background: #ffffff;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  box-shadow: 0 0 1px 2px #eaeaea;
+  padding-top: 60px;
+}
+.ui-container span.ui-tip {
+  color: #ff2929;
+  font-size: 14px;
+}
+.ui-container h4 {
+  height: 64px;
+  line-height: 64px;
+  font-size: 24px;
+  color: #2d2d2d;
+  font-weight: normal;
+}
+.ui-container .ui-table-report {
+  width: 100%;
+  height: 150px;
+  height: 152px\9;
+  border: 1px solid #3076bb;
+}
+.ui-container .ui-table-bereported {
+  width: 100%;
+  height: 340px;
+  height: 342px\9;
+  border: 1px solid #3076bb;
+  padding-bottom: 15px;
+}
+.ui-container h6 {
+  height: 30px;
+  background: #8ab7ff;
+  line-height: 30px;
+  border-bottom: 1px solid #0066ba;
+}
+.ui-container h6 span {
+  background: #fff;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #376ec5;
+  border-bottom: none;
+  text-align: center;
+  margin-top: 6px;
+  margin-left: 18px;
+  cursor: pointer;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 74px;
+  font-size: 14px;
+  color: #3076bb;
+  display: inline-block;
+}
+.ui-container h6 .ui-addorremove {
+  float: right;
+  margin-right: 30px;
+}
+.ui-container h6 .ui-addorremove a {
+  color: #fff;
+  font-size: 14px;
+}
+.ui-container #y {
+  width: 26px;
+  vertical-align: -2px;
+  margin-right: 4px;
+  margin-left: 6px;
+}
+.ui-container #n {
+  width: 26px;
+  vertical-align: -2px;
+  margin-right: 4px;
+  margin-left: 6px;
+}
+.ui-container table.table-report {
+  width: 908px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.ui-container table.table-report tr {
+  height: 24px;
+  line-height: 50px;
+}
+.ui-container table.table-report tr td {
+  width: 266px;
+}
+.ui-container table.table-report tr td label {
+  font-size: 14px;
+  color: #2d2d2d;
+  width: 80px;
+  display: inline-block;
+}
+.ui-container table.table-report tr td label.y {
+  width: 26px;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+.ui-container table.table-report tr td label.n {
+  width: 26px;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+.ui-container table.table-report tr td input[type="text"] {
+  width: 167px;
+  width: 169px\9;
+  height: 24px\9;
+  height: 22px;
+  border: 1px solid #3076bb;
+  vertical-align: middle;
+}
+.ui-container table.table-report tr td input[type="radio"] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #dedede;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+.ui-container table.table-report tr td select {
+  width: 230px;
+  width: 232px\9;
+  height: 26px\9;
+  height: 24px;
+  border: 1px solid #0066ba;
+  outline: none;
+}
+.ui-container table.table-report tr td select#sex {
+  width: 130px;
+}
+.ui-container table.table-report tr td select#nation {
+  width: 130px;
+}
+.ui-container p {
+  width: 910px;
+  line-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+}
+.ui-container p label {
+  font-size: 14px;
+  color: #2d2d2d;
+  display: inline-block;
+  line-height: 24px;
+}
+.ui-container p label.margin {
+  margin-right: 16px;
+  margin-left: 16px;
+}
+.ui-container p label.marginright {
+  margin-left: 16px;
+}
+.ui-container p input[type="text"] {
+  width: 162px;
+  width: 160px\9;
+  height: 24px\9;
+  height: 22px;
+  border: 1px solid #3076bb;
+  vertical-align: inherit;
+}
+.ui-container p input[type="text"]#home,
+.ui-container p input[type="text"]#companyed {
+  width: 372px;
+  height: 22px;
+  width: 374px\9;
+  height: 24px\9;
+}
+.ui-container p input[type="text"]#stay {
+  width: 206px;
+  width: 208px\9;
+  height: 22px;
+  height: 24px\9;
+}
+.ui-container p input[type="text"]#stay1 {
+  width: 230px;
+  width: 232px\9;
+  height: 22px;
+  height: 24px\9;
+}
+.ui-container p select {
+  width: 132px;
+  height: 22px;
+  width: 134px;
+  height: 24px;
+  border: 1px solid #3076bb;
+  outline: none;
+}
+.ui-container .ui-textarea {
+  width: 925px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  height: 274px;
+  line-height: 274px;
+}
+.ui-container .ui-textarea textarea {
+  width: 814px;
+  width: 816px\9;
+  height: 270px;
+  height: 272px\9;
+  font-size: 14px;
+  color: #2d2d2d;
+  margin-left: 22px;
+  border: 1px solid #0066ba;
+  vertical-align: middle;
+}
+.ui-container .ui-identifyingcode {
+  width: 925px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+}
+.ui-container .ui-identifyingcode label {
+  font-size: 14px;
+  color: #363636;
+}
+.ui-container .ui-identifyingcode input {
+  width: 86px;
+  width: 88px\9;
+  height: 22px;
+  height: 24px\9;
+  margin-left: 10px;
+  border: 1px solid #5e5e5e;
+  vertical-align: middle;
+}
+.ui-container .ui-identifyingcode span.ui-identify {
+  width: 62px;
+  height: 22px;
+  margin-left: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.ui-container .ui-identifyingcode span.ui-refresh {
+  width: 20px;
+  height: 23px;
+  margin-left: 12px;
+  margin-right: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.ui-container .ui-identifyingcode a {
+  text-decoration: underline;
+  color: #9c9c9c;
+  font-size: 14px;
+  vertical-align: middle;
+}
+.ui-container .ui-btn {
+  width: 925px;
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.ui-container .ui-btn button {
+  border: none;
+  background: #3076bb;
+  width: 92px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 4px;
+  margin: 0 10px;
+  outline: none;
+  cursor: pointer;
+}

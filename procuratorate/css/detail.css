@@ -1,0 +1,31 @@
+.ui-container .ui-content {
+  width: 1056px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 72px;
+}
+.ui-container .ui-content h4 {
+  line-height: 136px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3076bb;
+  text-align: center;
+}
+.ui-container .ui-content h4 + p {
+  height: 24px;
+  padding-left: 6px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.ui-container .ui-content h4 + p span {
+  margin-right: 20px;
+}
+.ui-container .ui-content h4 + p > span.ui-span-right {
+  float: right;
+}
+.ui-container .ui-content p.ui-detail {
+  margin-top: 38px;
+  text-indent: 32px;
+  font-size: 16px;
+  color: #3b3b3b;
+  padding-bottom: 60px;
+}

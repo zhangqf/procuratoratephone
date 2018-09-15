@@ -1,0 +1,97 @@
+.ui-container {
+  height: 1080px;
+  background: url(../image/tipoff.jpg) no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+input,select,textarea{
+  padding:0;
+  outline:none;
+}
+.ui-container .ui-log {
+  width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 256px;
+}
+.ui-container .ui-log a {
+  line-height: 88px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+}
+.ui-container .ui-log a + a {
+  margin-left: 36px;
+}
+.ui-container ul.ui-list {
+  width: 816px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 96px;
+  font-size: 0;
+}
+.ui-container ul.ui-list li {
+  width: 398px;
+  width: 400px\9;
+  height: 154px\9;
+  height: 152px;
+  line-height: 152px;
+  display: inline-block;
+  border: 1px solid #045191;
+  background: #2171c1;
+  box-shadow: 0 0 4px 3px #218bda inset;
+}
+.ui-container ul.ui-list li a {
+  width: 250px;
+  height: 100%;
+  display: block;
+  padding-left: 148px;
+  overflow: hidden;
+}
+.ui-container ul.ui-list li span.ui-bold {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  line-height: 38px;
+  margin-top: 38px;
+}
+.ui-container ul.ui-list li span.ui-normal {
+  font-weight: normal;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  line-height: 30px;
+}
+.ui-container ul.ui-list li.first {
+  background: url(../image/report.png) no-repeat 40px center;
+  margin-bottom: 14px;
+}
+.ui-container ul.ui-list li.second {
+  background: url(../image/user.png) no-repeat 40px center;
+  margin-left: 14px;
+  margin-bottom: 14px;
+}
+.ui-container ul.ui-list li.three {
+  background: url(../image/find.png) no-repeat 40px center;
+}
+.ui-container ul.ui-list li.four {
+  background: url(../image/question.png) no-repeat 40px center;
+  margin-left: 14px;
+}
+.ui-container .ui-footer {
+  width: 815px;
+  height: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ui-container .ui-footer p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 34px;
+}

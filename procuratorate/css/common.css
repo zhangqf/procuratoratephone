@@ -1,0 +1,129 @@
+.ui-header {
+  width: 100%;
+  height: 344px;
+  background: url('../image/homebanner.png');
+}
+.ui-header-top {
+  width: 1200px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+}
+.ui-header-top .ui-search {
+  float: right;
+}
+.ui-header-top .ui-search > input[type="text"] {
+  width: 223px;
+  height: 30px;
+  font-family: "宋体";
+  font-size: 14px;
+  text-indent: 10px;
+}
+.ui-header-top .ui-search > input[type="text"]::-webkit-input-placeholder {
+  color: #a9a9a9;
+}
+.ui-header-top .ui-search > input[type="button"] {
+  width: 32px;
+  height: 30px;
+  cursor: pointer;
+  background: #fff url('../image/searches.png') no-repeat center center;
+}
+.ui-logo {
+  height: 220px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.ui-nav {
+  width: 100%;
+  height: 46px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #3076bb;
+}
+ul.ui-nav {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul.ui-nav > li {
+  float: left;
+  font-size: 24px;
+  color: #044071;
+  line-height: 42px;
+}
+ul.ui-nav > li > a {
+  font-size: 20px;
+  line-height: 46px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0 36px;
+}
+ul.ui-nav > li.ui-date {
+  float: right;
+  font-size: 16px;
+  font-weight: normal;
+  color: #ffffff;
+}
+.ui-container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ui-container h2 {
+  width: 1200px;
+  text-indent: 12px;
+  height: 46px;
+  line-height: 46px;
+  color: #3076bb;
+  background: #f3f3f3;
+  font-size: 16px;
+  font-weight: normal;
+}
+.ui-container h2>a {
+  font-size: 16px;
+  color: #3076bb;
+}
+h6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3f3f3f;
+  text-indent: 8px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 9px;
+}
+.ui-friendshiplink .ui-link {
+  height: 88px;
+  line-height: 66px;
+}
+.ui-friendshiplink .ui-link a {
+  padding: 0 20px;
+  color: #394672;
+  font-size: 16px;
+}
+.ui-friendshiplink .ui-link select {
+  outline: none;
+  text-align: center;
+  border: 1px solid #b8b8b8;
+  margin-left: 28px;
+  width: 194px;
+  height: 24px;
+  width: 196px\9;
+  height: 26px\9;
+}
+.ui-footer {
+  background: #3076bb;
+  height: 220px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  padding-top: 16px;
+}
+.ui-footer p {
+  line-height: 34px;
+}
+.ui-footer > a > img {
+  margin-top: 10px;
+}
