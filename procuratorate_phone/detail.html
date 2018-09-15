@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="天水检察网手机端">
+    <meta name="keywords" content="天水检察网微网站,天水检察院">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./common/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/header.css" />
+    <link rel="stylesheet" type="text/css" href="./css/detail.css" />
+</head>
+
+<body>
+    <div class="ui-detial-header">
+        <a href="home.html"><img src="./img/left.png" alt=""></a>
+        新闻热点
+    </div>
+
+    <div class="ui-container">
+        <h2>
+            天水市检察院举办“检察文化”系列主题讲座第一讲
+        </h2>
+        <span>2018-09-11 09:22:26</span>
+        <div class="ui-detial-content">
+            <img src="./img/121212_03.png" alt="">
+            <p>
+                近日，为深入开展“一流检察院、一流检察队伍”创建活动，贯彻落实新时代首都强检战略，特别是深入落实“素质强检”的要求，进一步繁荣、发展首都检察文化建设，不断强化检察人员素质能力，北京市检察院政治部根据“首都检察文化”系列主题讲座活动安排，邀请中央广播电视总台李单老师，以“中国优秀传统文化在解决当前社会主要矛盾中的现实意义”为主题，开展“首都检察文化”系列讲座第五讲。北京市检察院党组成员、政治部主任葛海斌主持讲座，全市检察机关1300余名检察人员以自主选学方式通过视频会议系统同步参加培训。
+            </p>
+            <img src="./img/121212_03.png" alt=""> <img src="./img/121212_03.png" alt="">
+        </div>
+    </div>
+
+    <div class="ui-footer">
+        <a href="home.html">
+            <dl>
+                <dt class="iconfont">&#xe6c8;</dt>
+                <dd>检察服务</dd>
+            </dl>
+        </a>
+        <a href="">
+            <dl>
+                <dt class="iconfont">&#xe650;</dt>
+                <dd>机构设置</dd>
+            </dl>
+        </a>
+        <a href="video.html">
+            <dl>
+                <dt class="iconfont">&#xe630;</dt>
+                <dd>检察视频</dd>
+            </dl>
+        </a>
+        <a href="media.html">
+            <dl>
+                <dt class="iconfont">&#xe60c;</dt>
+                <dd> 新媒体</dd>
+            </dl>
+        </a>
+    </div>
+    <script src="./common/jquery-1.11.0.js"></script>
+    <script>
+        // var width = $(".ui-tab li").width();
+        // var len = $(".ui-tab li").length;
+        // $(".ui-tab").width(width * len);
+        // var _height = $(window).height();
+        // var _header = $(".ui-header").height();
+        var _footer = $(".ui-footer").height();
+        $(".ui-container").css({
+            "paddingBottom": _footer
+        });
+    </script>
+    <script src="./common/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper(".swiper-container", {
+            autoplay: 5000,
+            loop: true,
+            pagination: '.swiper-pagination',
+            autoplayDisableOnInteraction: false,
+        })
+    </script>
+</body>
+
+</html>

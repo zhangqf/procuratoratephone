@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="description" content="天水检察网手机端">
+    	<meta name="keywords" content="天水检察网微网站,天水检察院">
+		<link rel="stylesheet" href="css/login.css" />
+		<title>登录</title>
+	</head>
+	<body>
+		<div class="ui-boundary">
+			<div class="ui-title">
+				<a class="ui-title1" href="petition-hall.html"><img src="img/left.png"></a><span class="ui-title2">登录</span><a class="ui-title3" href="register.html">注册</a>
+			</div>
+			<ul>
+				<li><red>*</red><input type="tel"  value="" class="tel" placeholder="请输入手机号"></li>
+				<li><red>*</red><input type="text" value="" class="code" placeholder="请输入右侧验证码"/><span class="code-img" id="codeL"></span></li>
+				<li><red>*</red><input type="text" value="" class="passWord" placeholder="请输入动态密码"/><a class="ui-passWord" href="#" id="pwL">获取动态密码</a></li>
+			</ul>
+			<div class="ui-button">登录</div>
+		</div>
+		<script>
+			var checkCode = document.getElementById('codeL'); 
+			function createCode(){ 
+		        var code = "";    
+		        var codeLength = 4;//验证码的长度      
+		        var random = new Array(0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R',   
+		        'S','T','U','V','W','X','Y','Z');//随机数   
+		        for(var i = 0; i < codeLength; i++) {//循环操作   
+		            var index = Math.floor(Math.random()*36);//取得随机数的索引（0~35）   
+		            code += random[index];//根据索引取得随机数加到code上   
+		        }
+		        checkCode.innerHTML = code;//把code值赋给验证码   
+		    }
+			createCode();
+			checkCode.onclick=createCode;
+			
+			var passWord=document.getElementById('pwL');
+			var flag=true,flag1=true;
+			passWord.onclick=function(){
+				var s=60;
+				var timer;
+				if(flag){
+					timer=setInterval(function(){
+						if(s>0){
+							passWord.innerHTML="重新获取("+s+"s)";
+						}
+						if(s==0){
+							passWord.innerHTML="重新获取";
+							clearInterval(timer);
+							flag=true;
+						}
+						s--;	
+					},1000);
+					flag=false;
+				}
+				
+			}
+		</script>
+	</body>
+	
+</html>

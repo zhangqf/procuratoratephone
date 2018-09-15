@@ -1,0 +1,27 @@
+@charset "utf-8";
+.ui-content1{
+	display: block;
+	overflow: auto;
+	flex:1;
+	
+}
+.ui-content2{
+	display: none;
+	overflow: auto;
+	flex:1;
+}
+.ui-content3{
+	display: none;
+	overflow: auto;
+	flex:1;
+}
+.ui-upload span{
+	width:5.8rem;
+}
+.ui-upload img{
+	height:.60rem;
+	margin-right: 0;
+}
+.ui-upload input{
+	width:4.4rem;
+}

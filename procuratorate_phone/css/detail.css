@@ -1,0 +1,65 @@
+.ui-detial-header {
+  width: 100%;
+  height: 1.74rem;
+  line-height: 1.74rem;
+  background: #3076bb;
+  overflow: hidden;
+  text-align: center;
+  font-size: .68rem;
+  text-shadow: 0 0 0.35rem #990000;
+  color: #fff;
+  z-index: 10;
+  position: relative;
+}
+.ui-detial-header > a {
+  color: #fff;
+  display: inline-block;
+  font-size: .56rem;
+  position: absolute;
+  top: .1rem;
+  left: .56rem;
+}
+.ui-detial-header > a img {
+  width: .5rem;
+  height: .6rem;
+}
+.ui-container {
+  width: 100%;
+}
+h2 {
+  font-size: .68rem;
+  font-weight: bold;
+  color: #333333;
+  line-height: .8rem;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .4rem;
+}
+h2 + span {
+  color: #9c9c9c;
+  font-size: .5rem;
+  width: 94%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .4rem;
+}
+.ui-detial-content {
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #9c9c9c;
+  padding-top: .4rem;
+  margin-top: .2rem;
+}
+.ui-detial-content img {
+  width: 100%;
+  margin-bottom: .2rem;
+}
+.ui-detial-content p {
+  font-size: .56rem;
+  line-height: 1rem;
+  text-indent: 1.2rem;
+  margin-bottom: 1.4rem;
+}

@@ -1,0 +1,8 @@
+@charset "utf-8";
+.ui-tips{
+	padding:.20rem .20rem 0rem;
+	color:#0066ba;
+	font-size: .42rem;
+	line-height:.84rem;
+	text-indent: 1em;
+}

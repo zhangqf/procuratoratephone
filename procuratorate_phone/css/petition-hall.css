@@ -1,0 +1,194 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family: "微软雅黑";
+}
+::-webkit-scrollbar{
+	display: none;
+}
+a{
+	text-decoration: none;
+}
+html{
+	height: 100%;
+	font-size:8.88vw;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	height:100%;
+}
+.ui-header{
+	width:100%;
+	height:1.74rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background: #0066BA;	
+	/*background-image: url(../img/header.png);*/
+	/*background-size: cover;*/
+
+}
+.ui-header img{
+	width:0.92rem;
+	margin-top: .2rem;
+	margin-right: 0.3rem;
+	margin-left: .6rem;
+}
+.ui-header span {
+	font-size: 0.62rem;
+	color:#fff;
+}
+.ui-content{
+	display: block;
+	width: 100%;
+	overflow: auto;
+	flex: 1;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:none;
+	display: inline-block;
+}
+ul{
+	list-style: none;
+}
+.ui-subtitle1{
+	height:1rem;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	border-bottom: 1px solid #DADADA;
+	padding:0rem .52rem;
+	font-size:.52rem;
+}
+.ui-subtitle1 span{
+	color:#4E4E4E;
+}
+.ui-subtitle1 a{
+	color:#0066BA;
+}
+.ui-subtitle1 img{
+	width:.3rem;
+	height:.5rem;
+	margin-top:.15rem;
+}
+.ui-icons{
+	height:7.6rem;
+	padding:0rem .62rem;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: .6rem;
+}
+.ui-icons a {
+	width:33%;
+	height:2rem;
+	text-align:center;
+	font-size:.52rem;
+	font-weight:bold;
+	color:#000000;
+}
+.ui-icons img{
+	width:2rem;
+	height:2rem;
+}
+.ui-subtitle2{
+	padding: 0rem .6rem;
+	margin-top:.3rem;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.ui-subtitle2 a{
+	width:50%;
+	height:1.2rem;
+	border:1px solid #0066ba;
+	border-radius:.14rem .14rem 0 0;
+	box-sizing: border-box;
+	font-size:.52rem;
+	text-align: center;
+	color:#0066ba;
+	line-height: 1.2rem;
+}
+.situation{
+	background-color: #afdbff;
+}
+.ui-situation-content{
+	width:100%;
+	margin-top: .2rem;
+	overflow: auto;
+	flex:1;
+}
+.ui-situation1{
+	overflow: auto;
+	padding: 0rem .62rem;
+}
+.ui-situation1 li{
+	font-size: .52rem;
+	line-height:1rem;
+}
+.searchcode{
+	cursor: pointer;
+}
+.searchcode1{
+	display: inline-block;
+	width:3.6rem;
+	padding-left: .2rem;
+}
+.searchcode2{
+	display: inline-block;
+	width:5.4rem;
+}
+.ui-situation1 img{
+	width:.32rem;
+	height:.32rem;
+}
+.ui-situation2{
+	display: none;
+}
+.ui-situation2 li{
+	padding:0rem .4rem;
+	font-size: .44rem;
+	color:#333333;
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+}
+.ui-situation2 li>:nth-child(1){
+	width:5.6rem;
+}
+.ui-footer {
+  width: 100%;
+  height: 1.56rem;
+  display: flex;
+  background: #3076bb;
+  justify-content: space-around;
+  align-items: center;
+}
+.ui-footer > a {
+  font-size: .32rem;
+  color: #fff;
+}
+.ui-footer > a dl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../common/font/iconfont.eot');
+  src: url('../common/font/iconfont.eot?#iefix') format('embedded-opentype'), url('../common/font/iconfont.woff') format('woff'), url('../common/font/iconfont.ttf') format('truetype'), url('../common/font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 24px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}

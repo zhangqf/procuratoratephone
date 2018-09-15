@@ -1,0 +1,20 @@
+.ui-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.74rem;
+  overflow: scroll;
+}
+.ui-container dl {
+  margin-top: .4rem;
+}
+.ui-container dl dt {
+  text-align: center;
+}
+.ui-container dl dt img {
+  width: 3.6rem;
+}
+.ui-container dl dd {
+  text-align: center;
+  font-size: .6rem;
+}

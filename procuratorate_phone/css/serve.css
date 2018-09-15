@@ -1,0 +1,29 @@
+.ui-container {
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+  font-size: 0;
+}
+.ui-container a {
+  color: #333;
+}
+.ui-container dl {
+  background: #fbfbfb;
+  margin-bottom: .4rem;
+  padding: .4rem;
+  display: inline-block;
+  text-align: center;
+  font-size: .8rem;
+}
+.ui-container dl.margin-right {
+  margin-right: 5%;
+}
+.ui-container dl dt img {
+  width: 3rem;
+  height: 3rem;
+}
+.ui-container dl dd {
+  font-size: .5rem;
+  line-height: .6rem;
+}

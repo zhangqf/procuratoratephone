@@ -1,0 +1,20 @@
+.ui-container {
+  width: 100%;
+  padding-top: 1.74rem;
+  overflow: scroll;
+}
+.ui-list {
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ui-list li h2 {
+  font-size: .5rem;
+  line-height: .7rem;
+  font-weight: normal;
+}
+.ui-list li .ui-video {
+  margin-top: .2rem;
+  height: 6rem;
+  background: #f10;
+}
