@@ -1,20 +1,27 @@
 .ui-container {
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1.74rem;
-  overflow: scroll;
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  overflow-y: auto;
+  overflow-x:hidden;
 }
 .ui-container dl {
-  margin-top: .4rem;
+	
 }
 .ui-container dl dt {
   text-align: center;
 }
 .ui-container dl dt img {
-  width: 3.6rem;
+  width: 3.4rem;
 }
 .ui-container dl dd {
   text-align: center;
   font-size: .6rem;
+  line-height:1rem;
+}
+.ui-container::-webkit-scrollbar{
+	display: none;
 }

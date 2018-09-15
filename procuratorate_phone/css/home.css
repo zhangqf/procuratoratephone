@@ -1,6 +1,5 @@
 .ui-container {
   width: 100%;
-  padding-top: 1.74rem;
   overflow: scroll;
 }
 .ui-container::-webkit-scrollbar {
@@ -28,7 +27,6 @@
 .ui-container .ui-tab-wrapper .ui-tab li {
 	width:2.6rem;
   font-size: .44rem;
-  display: block;
   float: left;
   height: 1.14rem ;
   line-height: 1.14rem;

@@ -90,26 +90,6 @@
             </dl>
         </a>
     </div>
-    <script src="./common/jquery-1.11.0.js"></script>
-    <script>
-        var width = $(".ui-tab li").width();
-        var len = $(".ui-tab li").length;
-        $(".ui-tab").width(width * len);
-        var _height = $(window).height();
-        var _header = $(".ui-header").height();
-        var _footer = $(".ui-footer").height();
-        console.log(_footer);
-        $(".ui-container").height(_height - _header - _footer - 10);
-    </script>
-    <script src="./common/swiper.min.js"></script>
-    <script>
-        var mySwiper = new Swiper(".swiper-container", {
-            autoplay: 5000,
-            loop: true,
-            pagination: '.swiper-pagination',
-            autoplayDisableOnInteraction: false,
-        })
-    </script>
     <script type="text/javascript" src="http://www.ckplayer.com/Public/ckplayer/x/ckplayer.js"></script>
     <script>
         var videoPath = $('#a1').attr('data-src');

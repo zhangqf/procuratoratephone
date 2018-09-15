@@ -1,8 +1,8 @@
 .ui-container {
-  width: 72%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   font-size: 0;
 }
 .ui-container a {
@@ -10,8 +10,8 @@
 }
 .ui-container dl {
   background: #fbfbfb;
-  margin-bottom: .4rem;
-  padding: .4rem;
+  margin-bottom: .3rem;
+  padding: .6rem;
   display: inline-block;
   text-align: center;
   font-size: .8rem;
@@ -27,3 +27,20 @@
   font-size: .5rem;
   line-height: .6rem;
 }
+.ui-content{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.ui-subtitle1 {
+    height: 1rem;
+    padding: 0rem .52rem;
+    font-size: .52rem;
+    line-height: 1rem;
+}
+
+
